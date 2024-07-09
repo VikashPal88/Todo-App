@@ -1,0 +1,101 @@
+.main-container {
+    min-height: 500px;
+    width: 400px;
+    background-color: white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-container h1 {
+    font-size: 30px;
+    font-weight: 700;
+    border-bottom: 1px solid rgb(51, 50, 50);
+    width: 100%;
+    text-align: center;
+}
+
+.Add-todos {
+    margin-top: 10px;
+    display: flex;
+    gap: 6px;
+    width: 100%;
+}
+
+.Add-todos>input,
+button {
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    background: transparent;
+    margin: 0px 3px;
+    font-size: 15px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.Add-todos input {
+    background: #edeef0;
+    width: 100%;
+    padding: 5px;
+}
+
+.Add-todos button {
+    padding: 8px 20px;
+    cursor: pointer;
+    background-color: rgb(99, 4, 120);
+}
+
+.Add-todos button:hover {
+    background-color: rgba(82, 20, 96, 0.552);
+}
+
+
+.todos {
+    width: 100%;
+    ;
+}
+
+.main-todos-container {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    font-size: 20px;
+    font-weight: 600;
+    position: relative;
+    margin: 30px 0px;
+}
+
+.main-todos-container ul {
+    width: 100%;
+    padding: 0px;
+}
+
+.main-todos-container li {
+    list-style: none;
+    width: 100%;
+    word-wrap: break-word;
+}
+
+.main-todos-container button {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.main-todos-container .checkbox {
+    width: 8%;
+}
+
+.main-todos-container .allTodos {
+    width: 77%;
+}
+
+.main-todos-container .editDelete {
+    display: flex;
+    width: 15%;
+}
